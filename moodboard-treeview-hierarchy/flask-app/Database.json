@@ -1,0 +1,327 @@
+{
+  "categories": [
+    {
+      "id": "uuid-category-1",
+      "name": "Living Room",
+      "metadata": {
+        "entitytype": "category",
+        "url": "https://example.com/living-room"
+      },
+      "children": [
+        {
+          "id": "uuid-subcategory-1",
+          "name": "Sofa",
+          "metadata": {
+            "entitytype": "subcategory",
+            "url": [
+              "https://example.com/sofas"
+            ]
+          },
+          "children": [
+            {
+              "id": "uuid-moodboardtype-1",
+              "name": "Modern",
+              "metadata": {
+                "entitytype": "moodboardtype",
+                "url": "https://example.com/modern-sofas"
+              },
+              "children": [
+                {
+                  "id": "uuid-furnituretype-1",
+                  "name": "Sectional Sofa",
+                  "metadata": {
+                    "entitytype": "furnituretype",
+                    "url": "https://example.com/sectional-sofa",
+                    "annotations": [
+                      {
+                        "type": "Material",
+                        "details": {
+                          "accuracy": 0.92,
+                          "numberOfImages": 150
+                        }
+                      },
+                      {
+                        "type": "Color",
+                        "details": {
+                          "accuracy": 0.89,
+                          "numberOfImages": 120
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "uuid-furnituretype-2",
+                  "name": "Loveseat",
+                  "metadata": {
+                    "entitytype": "furnituretype",
+                    "url": "https://example.com/loveseat",
+                    "annotations": [
+                      {
+                        "type": "Material",
+                        "details": {
+                          "accuracy": 0.95,
+                          "numberOfImages": 100
+                        }
+                      },
+                      {
+                        "type": "Size",
+                        "details": {
+                          "accuracy": 0.88,
+                          "numberOfImages": 90
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c7d691e5-1f47-4015-9c89-c7109dc5c01e",
+              "name": "Western",
+              "metadata": {
+                "entitytype": "moodboardtype",
+                "url": [
+                  "http://11111"
+                ]
+              },
+              "children": []
+            }
+          ],
+          "type": "subcategory"
+        },
+        {
+          "id": "uuid-subcategory-2",
+          "name": "Coffee Tables",
+          "metadata": {
+            "entitytype": "subcategory",
+            "url": "https://example.com/coffee-tables"
+          },
+          "children": [
+            {
+              "id": "uuid-moodboardtype-2",
+              "name": "Vintage",
+              "metadata": {
+                "entitytype": "moodboardtype",
+                "url": "https://example.com/vintage-coffee-tables"
+              },
+              "children": [
+                {
+                  "id": "uuid-furnituretype-3",
+                  "name": "Round Coffee Table",
+                  "metadata": {
+                    "entitytype": "furnituretype",
+                    "url": "https://example.com/round-coffee-table",
+                    "annotations": [
+                      {
+                        "type": "Material",
+                        "details": {
+                          "accuracy": 0.93,
+                          "numberOfImages": 110
+                        }
+                      },
+                      {
+                        "type": "Era",
+                        "details": {
+                          "accuracy": 0.86,
+                          "numberOfImages": 95
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c271cd5d-f72b-4719-a3ee-06f50300400e",
+          "name": "Dining Tables",
+          "metadata": {
+            "entitytype": "subcategory",
+            "url": [
+              ""
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "uuid-category-2",
+      "name": "Dining Room",
+      "metadata": {
+        "entitytype": "category",
+        "url": "https://example.com/dining-room"
+      },
+      "children": [
+        {
+          "id": "uuid-subcategory-3",
+          "name": "Dining Sets",
+          "metadata": {
+            "entitytype": "subcategory",
+            "url": "https://example.com/dining-sets"
+          },
+          "children": [
+            {
+              "id": "uuid-moodboardtype-3",
+              "name": "Contemporary",
+              "metadata": {
+                "entitytype": "moodboardtype",
+                "url": "https://example.com/contemporary-dining-sets"
+              },
+              "children": [
+                {
+                  "id": "uuid-furnituretype-4",
+                  "name": "Expandable Dining Set",
+                  "metadata": {
+                    "entitytype": "furnituretype",
+                    "url": "https://example.com/expandable-dining-set",
+                    "annotations": [
+                      {
+                        "type": "Functionality",
+                        "details": {
+                          "accuracy": 0.94,
+                          "numberOfImages": 130
+                        }
+                      },
+                      {
+                        "type": "Design",
+                        "details": {
+                          "accuracy": 0.91,
+                          "numberOfImages": 115
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3722888-ad7c-44c8-aa21-1d508367b8f4",
+      "name": "sdfg",
+      "metadata": {
+        "entitytype": "category",
+        "url": "strisdfgng"
+      },
+      "children": [
+        {
+          "id": "f86e8075-a435-48c8-8104-e669bb86cff3",
+          "name": "sdfg",
+          "metadata": {
+            "entitytype": "subcategory",
+            "url": "strisdfgng"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "b6fe2510-31a6-46cb-ae15-860c87d55c3c",
+      "name": "Kitchen",
+      "metadata": {
+        "entitytype": "category",
+        "url": [
+          ""
+        ]
+      },
+      "children": [
+        {
+          "id": "ed74e59a-ad0b-46a7-9c04-010c57f39463",
+          "name": "Parallel Platform",
+          "metadata": {
+            "entitytype": "subcategory",
+            "url": [
+              ""
+            ]
+          },
+          "children": [
+            {
+              "id": "3ac26796-619c-4b96-ae80-631c00a76819",
+              "name": "Granite Slab",
+              "metadata": {
+                "entitytype": "moodboardtype",
+                "url": [
+                  ""
+                ]
+              },
+              "children": [
+                {
+                  "id": "8f1145c1-e5c5-45e7-bd18-31e3fab91313",
+                  "name": "Gray Colored",
+                  "metadata": {
+                    "annotations": [
+                      {
+                        "type": "PQRS",
+                        "details": {
+                          "accuracy": "0.9",
+                          "numberOfImages": "100"
+                        }
+                      }
+                    ],
+                    "entitytype": "furnituretype",
+                    "url": [
+                      ""
+                    ]
+                  },
+                  "type": "furnituretype"
+                },
+                {
+                  "id": "e232c2d8-f74b-40a7-8438-1cf904fee386",
+                  "name": "White Colored",
+                  "metadata": {
+                    "annotations": [],
+                    "entitytype": "furnituretype",
+                    "url": [
+                      ""
+                    ]
+                  },
+                  "type": "furnituretype"
+                },
+                {
+                  "id": "185be17e-fb47-4aaf-93a5-927557093897",
+                  "name": "Parallel Platform",
+                  "metadata": {
+                    "entitytype": "furnituretype",
+                    "url": [
+                      "http://url1",
+                      "http://url2"
+                    ],
+                    "annotations": [
+                      {
+                        "type": "Design",
+                        "details": {
+                          "accuracy": "0.7",
+                          "numberOfImages": "5"
+                        }
+                      },
+                      {
+                        "type": "Texture",
+                        "details": {
+                          "accuracy": "0.5",
+                          "numberOfImages": "4"
+                        }
+                      },
+                      {
+                        "type": "Color",
+                        "details": {
+                          "accuracy": "0.7",
+                          "numberOfImages": "2"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "type": "moodboardtype"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
